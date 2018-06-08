@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.xlsx diff=ExcelMerge
-*.xlsm diff=ExcelMerge
-*.xls diff=ExcelMerge    
+*.xlsx diff=excel
+*.xlsm diff=excel
+*.xls diff=excel

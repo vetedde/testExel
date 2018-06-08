@@ -1,8 +1,0 @@
-[diff]
-tool = ExcelMerge
-
-[difftool "ExcelMerge"]
-cmd = \"C:/Program Files (x86)/ExcelMerge/ExcelMerge.GUI.exe\" diff -s \"$LOCAL\" -d \"$REMOTE\" -c WinMerge -i -w -v -k
-
-[alias]
-windiff = difftool -g -y -t ExcelMerge
