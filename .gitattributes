@@ -3,3 +3,4 @@
 *.xls* diff=xlsx
 *.doc* diff=word
 *.xml diff=xml
+*.slv diff=slv
