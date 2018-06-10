@@ -5,7 +5,7 @@
 <!-- http://www.ebi.ac.uk/biomodels/                   -->
 
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" metaid="_476798" version="4">
-  <model id="MODEL1212040001" name="Smith2009 - RGS mediated GTP hydrolysis" metaid="_mymetaid">
+  <model id="MODEL12120400010" name="Smith2009 - RGS mediated GTP hydrolysis" metaid="_mymetaid">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <div class="dc:title">Smith2009 - RGS mediated GTP hydrolysis</div>
@@ -33,7 +33,7 @@ Dedication</a>
             for more information.        </p>
                 </div>
             </body>
-      
+
     </notes>
     <annotation>
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -268,7 +268,7 @@ Dedication</a>
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         NoRGS=0, 1xRGS=60, 2xRGS=120, 3xRGS=180</p>
-          
+
         </notes>
         <annotation>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
@@ -349,7 +349,7 @@ Dedication</a>
 	<rdf:li rdf:resource="http://identifiers.org/uniprot/P04695"/>
 	</rdf:Bag>
 	</bqbiol:hasPart>
-	
+
 	<bqbiol:hasProperty>
 	<rdf:Bag>
 	<rdf:li rdf:resource="http://identifiers.org/pato/PATO:0002355"/>
@@ -370,7 +370,7 @@ Dedication</a>
 	<rdf:li rdf:resource="http://identifiers.org/interpro/IPR000342"/>
 	</rdf:Bag>
 	</bqbiol:hasPart>
-	
+
 	<bqbiol:hasProperty>
 	<rdf:Bag>
 	<rdf:li rdf:resource="http://identifiers.org/pato/PATO:0002355"/>
@@ -453,7 +453,7 @@ Dedication</a>
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         Dose-response plots use: 0.1, 1, 3.16228, 10, 31.6228, 100, 316.228, 1000, 3162.28, 10000, 31622.8, 100000</p>
-          
+
         </notes>
       </parameter>
     </listOfParameters>
@@ -471,7 +471,7 @@ Dedication</a>
           <modifierSpeciesReference species="L" metaid="_114169"/>
         </listOfModifiers>
         <kineticLaw metaid="_477273">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -485,7 +485,7 @@ Dedication</a>
               <notes>
                 <p xmlns="http://www.w3.org/1999/xhtml">
               The value of this parameter in the original publication is incorrect. It has been corrected in agreement with the authors.</p>
-                
+
               </notes>
             </parameter>
           </listOfParameters>
@@ -504,7 +504,7 @@ Dedication</a>
           <modifierSpeciesReference species="Gabg" metaid="_114193"/>
         </listOfModifiers>
         <kineticLaw metaid="_477347">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -518,7 +518,7 @@ Dedication</a>
               <notes>
                 <p xmlns="http://www.w3.org/1999/xhtml">
               The value of this parameter in the original publication is incorrect. It has been corrected in agreement with the authors.</p>
-                
+
               </notes>
             </parameter>
           </listOfParameters>
@@ -537,7 +537,7 @@ Dedication</a>
           <modifierSpeciesReference species="Gabg" metaid="_114217"/>
         </listOfModifiers>
         <kineticLaw metaid="_477419">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -564,7 +564,7 @@ Dedication</a>
           <modifierSpeciesReference species="L" metaid="_114241"/>
         </listOfModifiers>
         <kineticLaw metaid="_477491">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -578,7 +578,7 @@ Dedication</a>
               <notes>
                 <p xmlns="http://www.w3.org/1999/xhtml">
               The value of this parameter in the original publication is incorrect. It has been corrected in agreement with the authors.</p>
-                
+
               </notes>
             </parameter>
           </listOfParameters>
@@ -608,7 +608,7 @@ Dedication</a>
           <modifierSpeciesReference species="RGabgL" metaid="_114253"/>
         </listOfModifiers>
         <kineticLaw metaid="_477576">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -644,7 +644,7 @@ Dedication</a>
           <modifierSpeciesReference species="Gabg" metaid="_114265"/>
         </listOfModifiers>
         <kineticLaw metaid="_477649">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -657,7 +657,7 @@ Dedication</a>
               <notes>
                 <p xmlns="http://www.w3.org/1999/xhtml">
               The value of this parameter in the original publication is incorrect. It has been corrected in agreement with the authors.</p>
-                
+
               </notes>
             </parameter>
           </listOfParameters>
@@ -676,7 +676,7 @@ Dedication</a>
           <modifierSpeciesReference species="RGS" metaid="_114289"/>
         </listOfModifiers>
         <kineticLaw metaid="_477721">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -702,7 +702,7 @@ Dedication</a>
           <modifierSpeciesReference species="RGSGaGTP" metaid="_114301"/>
         </listOfModifiers>
         <kineticLaw metaid="_477793">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -726,7 +726,7 @@ Dedication</a>
           <modifierSpeciesReference species="GaGTP" metaid="_114313"/>
         </listOfModifiers>
         <kineticLaw metaid="_477853">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -752,7 +752,7 @@ Dedication</a>
           <modifierSpeciesReference species="GaGTP" metaid="_114337"/>
         </listOfModifiers>
         <kineticLaw metaid="_477927">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -778,7 +778,7 @@ Dedication</a>
           <modifierSpeciesReference species="GaGTPEffector" metaid="_114349"/>
         </listOfModifiers>
         <kineticLaw metaid="_477999">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -791,7 +791,7 @@ Dedication</a>
               <notes>
                 <p xmlns="http://www.w3.org/1999/xhtml">
               The value of this parameter in the original publication is incorrect. It has been corrected in agreement with the authors.</p>
-                
+
               </notes>
             </parameter>
           </listOfParameters>
@@ -810,7 +810,7 @@ Dedication</a>
           <modifierSpeciesReference species="RGS" metaid="_114373"/>
         </listOfModifiers>
         <kineticLaw metaid="_478072">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -836,7 +836,7 @@ Dedication</a>
           <modifierSpeciesReference species="RGSinertGaGTP" metaid="_114385"/>
         </listOfModifiers>
         <kineticLaw metaid="_478144">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -860,7 +860,7 @@ Dedication</a>
           <modifierSpeciesReference species="inertGaGTP" metaid="_114397"/>
         </listOfModifiers>
         <kineticLaw metaid="_478205">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -885,7 +885,7 @@ Dedication</a>
           <modifierSpeciesReference species="GaGDPP" metaid="_114409"/>
         </listOfModifiers>
         <kineticLaw metaid="_478278">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -911,7 +911,7 @@ Dedication</a>
           <modifierSpeciesReference species="Gbg" metaid="_114433"/>
         </listOfModifiers>
         <kineticLaw metaid="_478351">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -933,7 +933,7 @@ Dedication</a>
           <modifierSpeciesReference species="P" metaid="_114445"/>
         </listOfModifiers>
         <kineticLaw metaid="_478399">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -955,7 +955,7 @@ Dedication</a>
           <modifierSpeciesReference species="GaGTPEffector" metaid="_114457"/>
         </listOfModifiers>
         <kineticLaw metaid="_478459">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -976,7 +976,7 @@ Dedication</a>
           <modifierSpeciesReference species="z1" metaid="_114470"/>
         </listOfModifiers>
         <kineticLaw metaid="_478508">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -997,7 +997,7 @@ Dedication</a>
           <modifierSpeciesReference species="z2" metaid="_114482"/>
         </listOfModifiers>
         <kineticLaw metaid="_478557">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -1015,7 +1015,7 @@ Dedication</a>
           <modifierSpeciesReference species="z3" metaid="_114494"/>
         </listOfModifiers>
         <kineticLaw metaid="_478594">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
@@ -1031,10 +1031,10 @@ Dedication</a>
         <notes>
           <p xmlns="http://www.w3.org/1999/xhtml">
         The model in the publication uses a tanh step function to add ligand, but only because the solver used by the authors did not support Events. Results are identical using this event, and has been changed in agreement with the authors.</p>
-          
+
         </notes>
         <trigger metaid="_478618">
-          <math xmlns="http://www.w3.org/1998/Math/MathML">          
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <geq/>
               <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
@@ -1044,7 +1044,7 @@ Dedication</a>
                 </trigger>
         <listOfEventAssignments>
           <eventAssignment metaid="_478630" variable="L">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <plus/>
                 <ci> L </ci>
