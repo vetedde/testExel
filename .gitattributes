@@ -2,3 +2,4 @@
 * text=auto
 *.xls* diff=xlsx
 *.doc* diff=word
+*.xml diff=xml
