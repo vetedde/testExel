@@ -10,12 +10,12 @@ Install ExcelMerge
 add to .get/config
 ```
 [diff]
-	tool=unDifftool
-[difftool "unDifftool"]
-		cmd = \"C:/Users/tkachenko/Documents/GitHub/testExel/diff.bat\" \"$LOCAL\" \"$REMOTE\"
+	tool=unMerge
+[difftool "unMerge"]
+	cmd = \"C:/Users/tkachenko/Documents/GitHub/testExel/diff.bat\" \"$LOCAL\" \"$REMOTE\"
 [alias]
-		windiff = difftool unDifftool
+	windiff = difftool unMerge
 ```
-
 ## Available file extension and tools to process them
 .xlsx - ExcelMerge
+other text formats  - WinMerge

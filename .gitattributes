@@ -1,6 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.xls* diff=unDifftool
-*.doc* diff=unDifftool
-*.xml diff=unDifftool
-*.slv diff=unDifftool
+*.docx diff=unMerge
+*.xls* diff=unMerge
