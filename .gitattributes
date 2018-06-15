@@ -1,4 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.docx diff=unMerge
-*.xls* diff=unMerge
+*.docx diff=word
+*.xls* diff=xlsx
